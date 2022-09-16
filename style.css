@@ -10,12 +10,6 @@
   --font: #67443d;
   --primary: #00b4d8;
   --secondary: #fe7c7d;
-
-  /* --secondary: #eb6060; */
-
-  /* --bg: #caf0f8; */
-  /* --bg: #67443d; */
-  /* --font: #ffc4c8; */
 }
 
 body {
@@ -23,14 +17,12 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--font);
   height: 100vh;
-  /* overflow-y: hidden; */
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100vh;
-  /* transition: 0.5s; */
   position: relative;
 }
 
@@ -122,10 +114,10 @@ html {
   overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-  width: 0; /* Remove scrollbar space */
-  background: transparent; /* Optional: just make scrollbar invisible */
+  width: 0;
+  background: transparent;
 }
-/* Optional: show position indicator in red */
+
 ::-webkit-scrollbar-thumb {
   background: #ff0000;
 }
