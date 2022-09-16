@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Lucky birthday</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="blur"></div>
+    <div class="grid">
+      <div class="section-img">
+        <img class="hero-img" src="hero.png" alt="Image of people standing" />
+      </div>
+      <div class="section-container">
+        <div class="heading-flex">
+          <h1 class="heading">Is your birthday lucky?</h1>
+          <img
+            class="heading-img"
+            src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/partying-face_1f973.png"
+            alt=""
+          />
+        </div>
+        <div class="container">
+          <label for="date-of-birth">Date of birth:</label>
+          <input id="date-of-birth" type="date" />
+
+          <label for="lucky-number">Lucky number:</label>
+          <input id="lucky-number" type="number" />
+
+          <button id="check-btn">Check Number</button>
+
+          <p class="message" type="text" id="output-box"></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <div class="footer-name">Social media Links</div>
+        <a
+          class="footer-links"
+          href="https://github.com/prachi-sahu-codes"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+
+        <a class="footer-links" href="https://twitter.com/sahuprachi637">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a
+          class="footer-links"
+          href="https://www.linkedin.com/in/prachi-sahu-96b228200/"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a class="footer-links" href="mailto:prachisahu998@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a class="footer-links" href="https://prachisahuportfolio.netlify.app/">
+          <i class="fa-solid fa-briefcase"></i>
+        </a>
+      </div>
+    </footer>
+
+    <div id="popup">
+      <h3>Privacy</h3>
+      <p>
+        This website doesn’t collect your personal data so you can get the best
+        experience on our website.
+      </p>
+      <button onclick="toggle()" class="popup-btn">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
